@@ -8,7 +8,7 @@ const SLIDES = [
     titulo: 'Energía que nace en el sur',
     texto:
       'Desde 2017 trabajamos en el desarrollo responsable de los recursos no convencionales de la Cuenca Neuquina, con una mirada de largo plazo.',
-    enlace: { texto: 'Conocer la compañía', href: '#quienes-somos' },
+    enlace: { texto: 'Consultar por servicios', href: '#quienes-somos' },
     imagen: '/assets/img/hero-pozo-vaca-muerta.jpg',
     alt: 'Equipo de perforación en operación en un pad de Vaca Muerta',
   },
