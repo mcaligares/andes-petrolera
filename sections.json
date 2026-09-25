@@ -1,0 +1,88 @@
+{
+  "sitio": "Andes Petrolera S.A.",
+  "version": "2.4.1",
+  "actualizado": "2026-09-25",
+  "convencion": {
+    "marcado": "<!-- SECTION:{id} START --> … <section id=\"{id}\" data-section=\"{id}\"> … </section> … <!-- SECTION:{id} END -->",
+    "componente": "components/Seccion.jsx",
+    "audiencias": ["inversor", "talento", "comunidad", "prensa", "proveedor", "general"]
+  },
+  "paginas": [
+    {
+      "archivo": "index.html",
+      "ruta": "/",
+      "fuente": "app/page.jsx",
+      "titulo": "Home",
+      "secciones": [
+        { "orden": 1,  "id": "hero-carrusel",          "componente": "components/sections/home/HeroCarrusel.jsx",          "proposito": "Presentación institucional rotativa con cuatro mensajes de marca y un enlace de texto a la sección correspondiente.", "audiencia": "general",   "audienciasSecundarias": ["comunidad", "talento"] },
+        { "orden": 2,  "id": "quienes-somos",          "componente": "components/sections/home/QuienesSomos.jsx",          "proposito": "Perfil corporativo extenso: constitución, estrategia, escala operativa y régimen de oferta pública.", "audiencia": "general",   "audienciasSecundarias": ["inversor", "prensa"] },
+        { "orden": 3,  "id": "nuestra-historia",       "componente": "components/sections/home/NuestraHistoria.jsx",       "proposito": "Línea de tiempo 2017-2026 con los hitos operativos y financieros de la Compañía.", "audiencia": "general",   "audienciasSecundarias": ["inversor", "prensa"] },
+        { "orden": 4,  "id": "mision-vision-valores",  "componente": "components/sections/home/MisionVisionValores.jsx",  "proposito": "Misión, visión y los cinco valores con los que la Compañía describe su forma de operar.", "audiencia": "talento",   "audienciasSecundarias": ["comunidad"] },
+        { "orden": 5,  "id": "mensaje-presidente",     "componente": "components/sections/home/MensajePresidente.jsx",     "proposito": "Carta del Presidente del Directorio sobre el ejercicio 2025, incluido el incidente de seguridad de febrero y el plan 2027.", "audiencia": "inversor",  "audienciasSecundarias": ["prensa", "talento"] },
+        { "orden": 6,  "id": "presencia-territorial",  "componente": "components/sections/home/PresenciaTerritorial.jsx",  "proposito": "Mapa de la Cuenca Neuquina y tres cifras de escala territorial.", "audiencia": "comunidad", "audienciasSecundarias": ["inversor", "proveedor"] },
+        { "orden": 7,  "id": "compromiso-comunidades", "componente": "components/sections/home/CompromisoComunidades.jsx", "proposito": "Tres programas comunitarios sostenidos, con alcance cuantificado.", "audiencia": "comunidad", "audienciasSecundarias": ["prensa"] },
+        { "orden": 8,  "id": "innovacion-tecnologia",  "componente": "components/sections/home/InnovacionTecnologia.jsx",  "proposito": "Centro de Monitoreo Integrado y cuatro frentes de aplicación tecnológica en la operación.", "audiencia": "talento",   "audienciasSecundarias": ["inversor", "proveedor"] },
+        { "orden": 9,  "id": "prensa-novedades",       "componente": "components/sections/home/PrensaNovedades.jsx",       "proposito": "Los seis comunicados institucionales más recientes, de 2024 a 2026.", "audiencia": "prensa",    "audienciasSecundarias": ["inversor"] },
+        { "orden": 10, "id": "carreras",               "componente": "components/sections/home/Carreras.jsx",               "proposito": "Propuesta de valor al talento, cifras de dotación y acceso a búsquedas abiertas y al Programa de Jóvenes Profesionales.", "audiencia": "talento",   "audienciasSecundarias": ["comunidad"] },
+        { "orden": 11, "id": "cifras-clave",           "componente": "components/sections/home/CifrasClave.jsx",           "proposito": "Ocho indicadores operativos, financieros y ESG del 2T 2026. Es el bloque de datos duros de la home.", "audiencia": "inversor",  "audienciasSecundarias": ["prensa"] },
+        { "orden": 12, "id": "inversores-teaser",      "componente": "components/sections/home/InversoresTeaser.jsx",      "proposito": "Pase al centro de inversores.", "audiencia": "inversor",  "audienciasSecundarias": [] },
+        { "orden": 13, "id": "contacto-oficinas",      "componente": "components/sections/home/ContactoOficinas.jsx",      "proposito": "Las tres oficinas con dirección, teléfono y correo, más el espacio del mapa interactivo.", "audiencia": "general",   "audienciasSecundarias": ["proveedor", "prensa"] }
+      ]
+    },
+    {
+      "archivo": "operaciones.html",
+      "ruta": "/operaciones",
+      "fuente": "app/operaciones/page.jsx",
+      "titulo": "Operaciones",
+      "secciones": [
+        { "orden": 1, "id": "hero-operaciones",         "componente": "components/sections/operaciones/HeroOperaciones.jsx",        "proposito": "Encabezado de la página con la síntesis del portafolio.", "audiencia": "general",   "audienciasSecundarias": ["inversor"] },
+        { "orden": 2, "id": "operaciones-resumen",      "componente": "components/sections/operaciones/ResumenOperativo.jsx",       "proposito": "Cuatro cifras de escala: producción, pozos, superficie y porcentaje operado.", "audiencia": "inversor",  "audienciasSecundarias": ["proveedor"] },
+        { "orden": 3, "id": "mapa-bloques",             "componente": "components/sections/operaciones/MapaBloques.jsx",            "proposito": "Mapa de ubicación de los cinco bloques con leyenda por tipo de participación.", "audiencia": "inversor",  "audienciasSecundarias": ["comunidad", "proveedor"] },
+        { "orden": 4, "id": "bloques-detalle",          "componente": "components/sections/operaciones/BloquesDetalle.jsx",         "proposito": "Ficha de cada bloque más la tabla comparativa de producción y superficie.", "audiencia": "inversor",  "audienciasSecundarias": ["proveedor"] },
+        { "orden": 5, "id": "perforacion-terminacion",  "componente": "components/sections/operaciones/PerforacionTerminacion.jsx", "proposito": "Método de perforación y terminación con seis indicadores de eficiencia.", "audiencia": "proveedor", "audienciasSecundarias": ["inversor", "talento"] },
+        { "orden": 6, "id": "facilities-evacuacion",    "componente": "components/sections/operaciones/FacilitiesEvacuacion.jsx",   "proposito": "Infraestructura propia de tratamiento y transporte, con capacidad de cada instalación.", "audiencia": "proveedor", "audienciasSecundarias": ["inversor"] },
+        { "orden": 7, "id": "exploracion",              "componente": "components/sections/operaciones/Exploracion.jsx",            "proposito": "Agenda exploratoria: sísmica adquirida, objetivos identificados y pozo previsto para 2027.", "audiencia": "inversor",  "audienciasSecundarias": ["prensa"] },
+        { "orden": 8, "id": "seguridad-operacional",    "componente": "components/sections/operaciones/SeguridadOperacional.jsx",   "proposito": "Política de detención de tareas, seguridad de procesos e indicadores TRIR y LTIF.", "audiencia": "proveedor", "audienciasSecundarias": ["talento", "comunidad"] },
+        { "orden": 9, "id": "proveedores",              "componente": "components/sections/operaciones/Proveedores.jsx",            "proposito": "Los cuatro pasos para trabajar con la Compañía y los accesos a registro, condiciones y facturación.", "audiencia": "proveedor", "audienciasSecundarias": ["comunidad"] }
+      ]
+    },
+    {
+      "archivo": "inversores.html",
+      "ruta": "/inversores",
+      "fuente": "app/inversores/page.jsx",
+      "titulo": "Inversores",
+      "secciones": [
+        { "orden": 1,  "id": "hero-inversores",          "componente": "components/sections/inversores/HeroInversores.jsx",          "proposito": "Encabezado del centro de inversores con los símbolos de cotización.", "audiencia": "inversor", "audienciasSecundarias": [] },
+        { "orden": 2,  "id": "cotizacion-accion",        "componente": "components/sections/inversores/CotizacionAccion.jsx",        "proposito": "Cotización en BYMA y NYSE, capitalización bursátil y aviso de demora. Valores estáticos de actualización manual.", "audiencia": "inversor", "audienciasSecundarias": ["prensa"] },
+        { "orden": 3,  "id": "resultados-trimestrales",  "componente": "components/sections/inversores/ResultadosTrimestrales.jsx",  "proposito": "Resultados del 2T 2026: cuatro KPI destacados y el estado de resultados resumido contra el mismo trimestre del año anterior.", "audiencia": "inversor", "audienciasSecundarias": ["prensa"] },
+        { "orden": 4,  "id": "indicadores-financieros",  "componente": "components/sections/inversores/IndicadoresFinancieros.jsx",  "proposito": "Serie de trece indicadores operativos y financieros para los últimos seis trimestres.", "audiencia": "inversor", "audienciasSecundarias": [] },
+        { "orden": 5,  "id": "reservas",                 "componente": "components/sections/inversores/Reservas.jsx",                 "proposito": "Reservas certificadas P1, P2 y P3 al 31/12/2025 con vida útil, índice de reposición y VPN10.", "audiencia": "inversor", "audienciasSecundarias": [] },
+        { "orden": 6,  "id": "guidance",                 "componente": "components/sections/inversores/Guidance.jsx",                 "proposito": "Seis objetivos comprometidos para 2026 con el avance del primer semestre y el descargo sobre manifestaciones futuras.", "audiencia": "inversor", "audienciasSecundarias": [] },
+        { "orden": 7,  "id": "reportes-descargables",    "componente": "components/sections/inversores/ReportesDescargables.jsx",    "proposito": "Trece reportes financieros y seis documentos de gobierno corporativo, filtrables por año.", "audiencia": "inversor", "audienciasSecundarias": ["prensa"] },
+        { "orden": 8,  "id": "calendario-eventos",       "componente": "components/sections/inversores/CalendarioEventos.jsx",       "proposito": "Seis eventos del calendario financiero, de noviembre de 2026 a abril de 2027.", "audiencia": "inversor", "audienciasSecundarias": ["prensa"] },
+        { "orden": 9,  "id": "gobierno-corporativo",     "componente": "components/sections/inversores/GobiernoCorporativo.jsx",     "proposito": "Composición del Directorio (nueve titulares, tres independientes) y los cuatro comités.", "audiencia": "inversor", "audienciasSecundarias": ["prensa"] },
+        { "orden": 10, "id": "hechos-relevantes",        "componente": "components/sections/inversores/HechosRelevantes.jsx",        "proposito": "Resumen de los hechos relevantes informados a la CNV.", "audiencia": "inversor", "audienciasSecundarias": ["prensa"] },
+        { "orden": 11, "id": "contacto-ir",              "componente": "components/sections/inversores/ContactoIR.jsx",              "proposito": "Datos del área de Relaciones con Inversores y formulario de suscripción a alertas.", "audiencia": "inversor", "audienciasSecundarias": [] }
+      ]
+    },
+    {
+      "archivo": "sustentabilidad.html",
+      "ruta": "/sustentabilidad",
+      "fuente": "app/sustentabilidad/page.jsx",
+      "titulo": "Sustentabilidad",
+      "secciones": [
+        { "orden": 1,  "id": "hero-sustentabilidad",   "componente": "components/sections/sustentabilidad/HeroSustentabilidad.jsx", "proposito": "Encabezado de la página con la promesa de metas públicas y avance verificable.", "audiencia": "comunidad", "audienciasSecundarias": ["inversor"] },
+        { "orden": 2,  "id": "enfoque-esg",            "componente": "components/sections/sustentabilidad/EnfoqueESG.jsx",          "proposito": "Los tres pilares ESG y el rol del Comité de HSE y Sustentabilidad del Directorio.", "audiencia": "inversor",  "audienciasSecundarias": ["comunidad"] },
+        { "orden": 3,  "id": "metas-esg",              "componente": "components/sections/sustentabilidad/MetasESG.jsx",            "proposito": "Tabla de ocho metas con línea de base, valor actual, año objetivo y porcentaje de avance.", "audiencia": "inversor",  "audienciasSecundarias": ["comunidad", "prensa"] },
+        { "orden": 4,  "id": "cambio-climatico",       "componente": "components/sections/sustentabilidad/CambioClimatico.jsx",     "proposito": "Trayectoria de intensidad de emisiones 2021-2030 y la posición explícita sobre neutralidad de carbono.", "audiencia": "inversor",  "audienciasSecundarias": ["prensa", "comunidad"] },
+        { "orden": 5,  "id": "gestion-agua",           "componente": "components/sections/sustentabilidad/GestionAgua.jsx",         "proposito": "Reutilización de agua de retorno, captación bajo permiso y tres indicadores hídricos.", "audiencia": "comunidad", "audienciasSecundarias": ["inversor"] },
+        { "orden": 6,  "id": "biodiversidad",          "componente": "components/sections/sustentabilidad/Biodiversidad.jsx",       "proposito": "Convenio universitario de relevamiento, reducción de huella por pozo y hectáreas restauradas.", "audiencia": "comunidad", "audienciasSecundarias": ["prensa"] },
+        { "orden": 7,  "id": "seguridad-salud",        "componente": "components/sections/sustentabilidad/SeguridadSalud.jsx",      "proposito": "Indicadores TRIR y LTIF, seguridad de procesos y programa de salud ocupacional.", "audiencia": "talento",   "audienciasSecundarias": ["proveedor", "inversor"] },
+        { "orden": 8,  "id": "comunidades-programas",  "componente": "components/sections/sustentabilidad/ComunidadesProgramas.jsx","proposito": "Los cuatro programas comunitarios con alcance cuantificado e inversión social del ejercicio.", "audiencia": "comunidad", "audienciasSecundarias": ["prensa"] },
+        { "orden": 9,  "id": "diversidad-talento",     "componente": "components/sections/sustentabilidad/DiversidadTalento.jsx",   "proposito": "Composición de la dotación, brecha salarial ajustada y empleo local.", "audiencia": "talento",   "audienciasSecundarias": ["inversor", "comunidad"] },
+        { "orden": 10, "id": "etica-cumplimiento",     "componente": "components/sections/sustentabilidad/EticaCumplimiento.jsx",   "proposito": "Programa de integridad Ley 27.401 y los cuatro canales de la Línea Ética, con el detalle de reportes recibidos.", "audiencia": "general",   "audienciasSecundarias": ["proveedor", "talento"] },
+        { "orden": 11, "id": "estandares-reportes",    "componente": "components/sections/sustentabilidad/EstandaresReportes.jsx",  "proposito": "Estándares de reporte (GRI, SASB, TCFD, ODS) y descarga de los cuatro documentos de sustentabilidad.", "audiencia": "inversor",  "audienciasSecundarias": ["prensa", "comunidad"] }
+      ]
+    }
+  ]
+}

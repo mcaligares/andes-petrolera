@@ -1,0 +1,22 @@
+{
+  "name": "andes-petrolera",
+  "version": "2.4.1",
+  "private": true,
+  "description": "Sitio institucional Andes Petrolera S.A.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "next lint",
+    "placeholders": "node scripts/generar-placeholders.mjs",
+    "pdfs": "node scripts/generar-pdfs.mjs",
+    "seed:posthog": "node scripts/seed-posthog.mjs",
+    "posthog:dashboard": "node scripts/posthog-dashboard.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "posthog-js": "^1.434.14",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  }
+}
