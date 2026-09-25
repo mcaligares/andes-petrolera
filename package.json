@@ -14,9 +14,9 @@
     "posthog:dashboard": "node scripts/posthog-dashboard.mjs"
   },
   "dependencies": {
-    "next": "15.5.4",
+    "next": "^15.5.26",
     "posthog-js": "^1.434.14",
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   }
 }
